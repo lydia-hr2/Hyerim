@@ -28,10 +28,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb__text">
-                        <h4>Log In</h4>
+                        <h4>메이트 로그인</h4>
                         <div class="breadcrumb__links">
                             <a href="/">Home</a>
-                            <span>Log In</span>
+                            <span>메이트 로그인</span>
                         </div>
                     </div>
                 </div>
@@ -39,6 +39,7 @@
         </div>
     </section>
     <!-- Breadcrumb Section End -->
+
 
     <!-- Checkout Section Begin -->
     <section class="checkout spad">
@@ -48,27 +49,28 @@
                         <div class="col-lg-8 col-md-10">
                             <h6 class="coupon__code"><span class="icon_tag_alt"></span> Have no ID? <a href="/mate/signin">Click
                             here</a> to join us</h6>
-                            <h6 class="checkout__title">LOGIN FORM</h6>
+                            <h6 class="checkout__title">메이트 로그인</h6>
                             <form id="login_form" name="login_form" action="/mate/loginimpl" method="post">
                             <div class="row">
                                 <div class="col-lg-10">
                                     <div class="checkout__input" >
-                                        <p>ID<span>*</span></p>
+                                        <p>아이디<span>*</span></p>
                                         <input type="text" id="email" name="email">
                                     </div>
                                     <div class="checkout__input" >
-                                        <p>Password<span>*</span></p>
+                                        <p>패스워드<span>*</span></p>
                                         <input type="password" id="password" name="password">
                                     </div>
                                 </div>
                             </div>
                                 <div class="checkout__input__checkbox">
-                                    <button type="submit" class="btn btn-primary" id="login_btn">Log In</button>
+                                    <button type="submit" class="btn btn-primary" id="login_btn">로그인</button>
                                 </div>
                             </form>
                         </div>
                     </div>
             </div>
+
         </div>
     </section>
     <!-- Checkout Section End -->

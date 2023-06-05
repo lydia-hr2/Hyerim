@@ -21,11 +21,6 @@ public class ReviewController {
     @Autowired
     ReviewService reviewService;
 
-    @Autowired
-    private BCryptPasswordEncoder encoder;
-    String dir = "/review";
-
-
     @RequestMapping("/reviewimpl")
     public String reviewimpl(@Valid ItemReview itemReview, Model model, HttpSession session) throws Exception {
         try {
@@ -34,6 +29,7 @@ public class ReviewController {
             e.printStackTrace();
             throw new Exception("가입 오류");
         }
+
         model.addAttribute("rreview", itemReview);
         return "redirect:/shop";
     }

@@ -1,9 +1,10 @@
 package com.kbstar.controller;
 
 import com.kbstar.dto.ItemReview;
+import com.kbstar.firebase.FirebaseInit;
 import com.kbstar.service.ReviewService;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,31 +14,32 @@ import java.util.List;
 
 @Slf4j
 @Controller
+@RequiredArgsConstructor
 public class MainController {
 
-    @Autowired
-    ReviewService reviewService;
+    private final ReviewService reviewService;
+    private final FirebaseInit init;
 
-    @RequestMapping("/test1")
+    @RequestMapping("/chat")
     public String test1(Model model, HttpSession session) {
-        model.addAttribute("center", "test1");
+        model.addAttribute("center", "chat");
         return "index";
+    }
+
+    @RequestMapping("/callchat")
+    public String callchat() {
+        return "callchat";
     }
 
     @RequestMapping("/")
     public String main(Model model, HttpSession session) {
+        init.init();
         if ((session.getAttribute("mycart") == null)) {
             session.setAttribute("mycart", 0);
         }
         if ((session.getAttribute("myreserve") == null)) {
             session.setAttribute("myreserve", 0);
         }
-        return "index";
-    }
-
-    @RequestMapping("/match")
-    public String match(Model model, HttpSession session) {
-        model.addAttribute("center", "match");
         return "index";
     }
 
@@ -92,23 +94,6 @@ public class MainController {
         return "index";
     }
 
-    @RequestMapping("/about")
-    public String about(Model model) {
-        model.addAttribute("center","about");
-        return "index";
-    }
-
-    @RequestMapping("/blog-details")
-    public String blogdetails(Model model) {
-        model.addAttribute("center","blog-details");
-        return "index";
-    }
-    
-    @RequestMapping("/blog")
-    public String blog(Model model) {
-        model.addAttribute("center","blog");
-        return "index";
-    }
 
     @RequestMapping("/shop-details")
     public String shopdetails(Model model) {
@@ -154,21 +139,22 @@ public class MainController {
         return "index";
     }
 
-    @RequestMapping("/memberdetail")
-    public String memberdetail(Model model) {
-        model.addAttribute("center", "memberdetail");
-        return "index";
-    }
-
     @RequestMapping("/goldenlife")
     public String goldenlife(Model model) {
         model.addAttribute("center", "goldenlife");
         return "index";
     }
-
+    
     @RequestMapping("/matereviews")
     public String matereviews(Model model) {
         model.addAttribute("center", "matereviews");
         return "index";
     }
+
+    @RequestMapping("/receipt")
+    public String receipt(Model model) {
+        model.addAttribute("center", "receipt");
+        return "index";
+    }
+
 }
