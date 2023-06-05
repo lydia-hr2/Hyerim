@@ -8,7 +8,6 @@ import com.kbstar.service.CartService;
 import com.kbstar.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -50,16 +49,11 @@ public class MemberController {
     @GetMapping("/login?logout")
     public String logoutSenior(HttpSession session){
         session.invalidate();
-        if (session != null) {
-
-            log.info("===================로그아웃 세션 제거 완료 ===================");
-        }
-        return "redirect:/login";
+        return "redirect:/";
     }
 
     @RequestMapping("/loginimpl")
     public String loginimpl(Model model, String email, String password, HttpSession session) {
-        String nextPage = "loginfail";
         Member member = null;
         try {
             member = memberService.get(email);
@@ -68,7 +62,6 @@ public class MemberController {
                 session.setAttribute("mycart", 1);
             }
             if (member != null && encoder.matches(password, member.getPassword())) {
-                nextPage = "loginok";
                 session.setMaxInactiveInterval(100000);// 한 session의 제한시간
                 session.setAttribute("loginmember", member); //session에 logincust라는 이름으로 cust를 넣어줌 --> login을 메모리에 제한시간만큼 유지
             }
@@ -77,6 +70,12 @@ public class MemberController {
             throw new RuntimeException("시스템 장애 잠시 후 다시 로그인 하세요.");
         }
         return "redirect:/shop";
+    }
+
+    @RequestMapping("/memberdetail")
+    public String memberdetail(Model model) {
+        model.addAttribute("center", "memberdetail");
+        return "index";
     }
 
     @RequestMapping("/memberdetailUpdate")

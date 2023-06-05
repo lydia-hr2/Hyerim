@@ -154,56 +154,6 @@
             map03.init();
         });
     </script>
-
-
-<!-- Categories Section Begin -->
-<section class="categories spad">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3">
-                <div class="categories__text">
-                    <h2>Top 100 <br /> <span>신발 컬렉션</span> <br /> 악세사리</h2>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="categories__hot__deal">
-                    <img src="/img/product-sale.png" alt="">
-                    <div class="hot__deal__sticker">
-                        <span>오늘의 핫딜!</span>
-                        <h5>$29.99</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 offset-lg-1">
-                <div class="categories__deal__countdown">
-                    <span>금주의 핫딜!</span>
-                    <h2>멀티포켓 가방(브라운)</h2>
-                    <div class="categories__deal__countdown__timer" id="countdown">
-                        <div class="cd-item">
-                            <span>3</span>
-                            <p>일</p>
-                        </div>
-                        <div class="cd-item">
-                            <span>1</span>
-                            <p>시간</p>
-                        </div>
-                        <div class="cd-item">
-                            <span>50</span>
-                            <p>분</p>
-                        </div>
-                        <div class="cd-item">
-                            <span>18</span>
-                            <p>초</p>
-                        </div>
-                    </div>
-                    <a href="#" class="primary-btn">지금 바로 사기!</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Categories Section End -->
-
     <!-- Contact Section Begin -->
     <section class="contact spad">
         <div class="container">
@@ -213,7 +163,7 @@
                     <div class="container" id="map03">
                         <div class="section-title">
                             <span>Location</span>
-                            <h2>Location</h2>
+                            <h2>위치</h2>
                         </div>
                         <div id="map"></div>
                         <br>
@@ -231,7 +181,7 @@
                         <div class="section-title">
                             <span>Information</span>
                             <h2>연락처</h2>
-                            <p>고급스러운 디자인과 좋은 품질로, 저희는 세심한 주의를 기울입니다.</p>
+                            <p>당신의 편안한 인생을 위해 24시간 언제든지 연락주세요.</p>
                         </div>
                         <ul>
                             <li>

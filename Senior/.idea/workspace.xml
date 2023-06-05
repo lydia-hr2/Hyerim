@@ -4,83 +4,468 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="559355b2-45be-47f7-bbf9-75268ec3585d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="c8ae3c6e-cd3f-4403-b595-42d4e7256952" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0525프로젝트ERD.sql" beforeDir="false" afterPath="$PROJECT_DIR$/0525프로젝트ERD.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/CartApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/CartApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/WebSocketConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MateController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/ReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/ReviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/ItemReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/ItemReview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/Mate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/Mate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/Review.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/exception/ChatException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/OrderMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/OrderMatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/exception/handler/CustomExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/exception/handler/CustomExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/mapper/OrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/mapper/ReviewMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/mapper/ReviewMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/service/ReviewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/service/ReviewService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/kakaopay/KakaoPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/kakaopay/KakaoPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/service/MateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/service/MateService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/MateMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/MateMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/OrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/membermapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/membermapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/reviewmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/reviewmapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/data/ddl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/data/ddl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/about/about-us.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/about/team-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/about/team-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/about/team-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/about/team-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/about/testimonial-author.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/about/testimonial-pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/banner/banner-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/banner/banner-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/banner/banner-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/blog/blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/blog/blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/blog/blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/blog/blog-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/blog/blog-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/blog/blog-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/blog/blog-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/blog/blog-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/blog/blog-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/blog/details/blog-author.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/blog/details/blog-details.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/breadcrumb-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/clients/client-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/clients/client-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/clients/client-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/clients/client-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/clients/client-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/clients/client-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/clients/client-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/clients/client-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/footer-logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/hero/hero-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/hero/hero-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/instagram/instagram-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/instagram/instagram-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/instagram/instagram-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/instagram/instagram-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/instagram/instagram-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/instagram/instagram-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/payment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/product-sale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/product/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/product/product-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/product/product-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/product/product-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/product/product-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/product/product-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/product/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/product/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/product/product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/product/product-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/product/product-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/product/product-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/product/product-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/product/product-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/shop-details/product-big-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/shop-details/product-big-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/shop-details/product-big-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/shop-details/product-big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/shop-details/thumb-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/shop-details/thumb-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/shop-details/thumb-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/shop-details/thumb-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/shopping-cart/cart-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/shopping-cart/cart-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/shopping-cart/cart-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/shopping-cart/cart-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/rtc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/404.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/center.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/center.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/views/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/checkout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/exception.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/exception.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/contact.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/contact.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/exception.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/faq.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/faq.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/firebase-snippet.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/goldenlife.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/goldenlife.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/kakaoPaySuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/kakaoPaySuccess.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/match.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/match.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/orderDetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/orderDetail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/review.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/review.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/reviewall.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/reviewall.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/match.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/mateLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/mateLogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/mateSignin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/mateSignin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/matereviews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/matereviews.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/memberdetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/memberdetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/review.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/views/shop-details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/shop-details.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/shop.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/views/signin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/signin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kbstar/member/DeleteAllTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kbstar/member/InsertTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kbstar/member/SelectOneTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kbstar/member/SelectTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kbstar/reserve/InsertTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kbstar/reserve/SelectTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kbstar/review/InsertTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kbstar/review/RateTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/test1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/test2.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/WebMvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/CartApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/controller/CartApiController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/controller/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/WebSocketConfig.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/MateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/controller/MateController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/controller/MemberController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/controller/OrderController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/ReviewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/controller/ReviewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/dto/ItemReview.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/dto/ItemReview.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/dto/Match.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/dto/Match.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/dto/Mate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/dto/Mate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/dto/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/dto/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/dto/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/dto/Review.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/exception/ChatException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/dto/OrderMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/dto/OrderMatch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/exception/handler/CustomExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/exception/handler/CustomExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/mapper/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/mapper/OrderMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/mapper/ReviewMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/mapper/ReviewMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/service/MemberService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/service/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/service/ReviewService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/service/ReviewService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/kakaopay/KakaoPay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/kakaopay/KakaoPay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/service/MateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/service/MateService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/MateMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/MateMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mybatis/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/OrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/membermapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/membermapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mybatis/reviewmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/reviewmapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/data/ddl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/data/ddl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/member/DeleteAllTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/member/InsertTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/member/SelectOneTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/member/SelectTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/reserve/InsertTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/reserve/SelectTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/review/InsertTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/review/RateTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web25/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web25/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/about/about-us.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/about/team-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/about/team-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/about/team-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/about/team-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/about/testimonial-author.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/about/testimonial-pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/banner/banner-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/banner/banner-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/banner/banner-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/blog/blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/blog/blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/blog/blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/blog/blog-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/blog/blog-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/blog/blog-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/blog/blog-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/blog/blog-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/blog/blog-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/blog/details/blog-author.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/blog/details/blog-details.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/breadcrumb-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/clients/client-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/clients/client-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/clients/client-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/clients/client-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/clients/client-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/clients/client-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/clients/client-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/clients/client-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/footer-logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/hero/hero-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/hero/hero-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/instagram/instagram-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/instagram/instagram-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/instagram/instagram-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/instagram/instagram-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/instagram/instagram-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/instagram/instagram-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/payment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/product-sale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/product/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/product/product-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/product/product-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/product/product-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/product/product-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/product/product-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/product/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/product/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/product/product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/product/product-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/product/product-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/product/product-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/product/product-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/product/product-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/shop-details/product-big-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/shop-details/product-big-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/shop-details/product-big-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/shop-details/product-big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/shop-details/thumb-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/shop-details/thumb-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/shop-details/thumb-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/shop-details/thumb-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/shopping-cart/cart-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/shopping-cart/cart-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/shopping-cart/cart-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/shopping-cart/cart-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/rtc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/SeniorTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clone/clone0518/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clone/clone0518/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clone/clone0518/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clone/clone0518/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clone/clone0518/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clone/clone0518/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clone/clone0518/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clone0511/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jaca/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jaca/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jaca/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jaca/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jaca/jaca.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jaca/반복문.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/JasyptConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/LoginCheckFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/ServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/Web25Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/WebMessageConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/WebMvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/controller/AjaxController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/controller/AjaxImplController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/controller/ChartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/controller/ChartImplController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/controller/CustController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/controller/CustomErrorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/controller/ItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/controller/JSPController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/controller/MapController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/controller/NcpController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/dto/Adm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/dto/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/dto/Cust.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/dto/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/dto/Marker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/dto/MarkerDesc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/dto/Ncp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/dto/Sales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/frame/KBMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/frame/KBService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/mapper/AdmMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/mapper/CartMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/mapper/CustMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/mapper/ItemMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/mapper/MarkerDescMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/mapper/MarkerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/mapper/SalesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/service/AdmService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/service/CartService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/service/CustService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/service/ItemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/service/MarkerDescService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/service/MarkerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/service/SalesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/util/CFRCelebrityUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/util/CFRFaceUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/util/FileUploadUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/util/OCRUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/java/com/kbstar/util/WeatherUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/resources/log4jdbc.log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/resources/messages/message.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/resources/messages/message_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/resources/messages/message_ko_KR.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/resources/mybatis/admmapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/resources/mybatis/cartmapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/resources/mybatis/custmapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/resources/mybatis/itemmapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/resources/mybatis/markerdescmapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/resources/mybatis/markermapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/resources/mybatis/salesmapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/resources/static/img/fjords.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/resources/static/img/lights.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/resources/static/img/nature.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/resources/static/js/index0421.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/ajax/ajax01.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/ajax/ajax02.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/ajax/ajax03.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/ajax/ajax04.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/ajax/ajax05.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/ajax/center.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/ajax/left.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/callcenter.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/cart.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/center.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/cfr1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/cfr2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/chart/center.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/chart/chart01.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/chart/chart02.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/chart/chart03.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/chart/chart04.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/chart/chart05.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/chart/left.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/chatbot.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/cust/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/cust/all.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/cust/allpage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/cust/center.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/cust/get.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/cust/left.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/custinfo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/error/error_page1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/item/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/item/all.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/item/allpage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/item/center.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/item/get.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/item/left.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/jsp/center.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/jsp/jsp01.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/jsp/jsp02.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/jsp/jsp03.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/jsp/jsp04.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/jsp/jsp05.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/jsp/left.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/left.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/loginfail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/loginok.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/map/center.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/map/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/map/left.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/map/map01.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/map/map02.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/map/map03.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/map/map04.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/map/map05.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/ocr1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/ocr2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/page.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/pic.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/registerok.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/main/webapp/views/websocket.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/Web25ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/adm/DeleteTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/adm/InsertTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/adm/SelectOneTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/adm/SelectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/adm/UpdateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/cart/DeleteTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/cart/InsertTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/cart/SelectIDTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/cart/SelectOneTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/cart/SelectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/cart/UpdateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/cust/DeleteTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/cust/InsertTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/cust/SelectOneTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/cust/SelectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/cust/UpdateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/item/DeleteTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/item/InsertTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/item/SelectOneTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/item/SelectPageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/item/SelectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/item/UpdateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/marker/DeleteTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/marker/InsertTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/marker/SelectLocTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/marker/SelectOneTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/marker/SelectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/marker/UpdateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/markerdesc/DeleteTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/markerdesc/InsertTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/markerdesc/SelectDescTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/markerdesc/SelectOneTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/markerdesc/SelectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/markerdesc/UpdateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/ncp/CFRCelebrityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/ncp/CFRFaceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/ncp/OCRTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/sales/InsertTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/sales/selectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/weather/CalendarTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/src/test/java/com/kbstar/weather/WeatherTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/JasyptConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/LocaleResolve.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/LoginCheckFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/MessageByLocale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/ServletInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/Web22Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/WebMessageConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/controller/AjaxController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/controller/AjaxImplController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/controller/ChartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/controller/ChartImplController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/controller/CustController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/controller/CustomErrorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/controller/ItemController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/controller/JSPController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/controller/MapController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/controller/NcpController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/dto/Adm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/dto/Cart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/dto/Cust.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/dto/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/dto/Marker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/dto/MarkerDesc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/dto/Ncp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/dto/Sales.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/frame/KBMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/frame/KBService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/mapper/AdmMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/mapper/CartMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/mapper/CustMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/mapper/ItemMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/mapper/MarkerDescMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/mapper/MarkerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/mapper/SalesMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/service/AdmService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/service/CartService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/service/CustService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/service/ItemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/service/MarkerDescService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/service/MarkerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/service/SalesService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/util/CFRCelebrityUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/util/CFRFaceUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/util/FileUploadUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/util/OCRUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/com/kbstar/util/WeatherUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/log4jdbc.log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/messages/message.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/messages/message_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/messages/message_ko_KR.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/mybatis/admmapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/mybatis/cartmapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/mybatis/custmapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/mybatis/itemmapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/mybatis/markerdescmapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/mybatis/markermapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/mybatis/salesmapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/static/img/fjords.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/static/img/lights.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/static/img/nature.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web25/target/classes/static/js/index0421.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,8 +490,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2QJb9rPKnpz8lRcFFV1JxRB2BDU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2QlwNQRPGdVeoXpqZyJiM678ql4" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
@@ -118,15 +502,14 @@
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/spring/miniproject",
+    "last_opened_file_path": "C:/spring/admin_SBDS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "e8cdb964fb869d42981e6ac512177523",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -142,22 +525,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="559355b2-45be-47f7-bbf9-75268ec3585d" name="Changes" comment="" />
-      <created>1685074488201</created>
+      <changelist id="c8ae3c6e-cd3f-4403-b595-42d4e7256952" name="Changes" comment="" />
+      <created>1685941445788</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1685074488201</updated>
-      <workItem from="1685074490142" duration="281000" />
-      <workItem from="1685074830568" duration="7330000" />
+      <updated>1685941445788</updated>
+      <workItem from="1685941447141" duration="2096000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/.." />
-    </ignored-roots>
   </component>
 </project>
